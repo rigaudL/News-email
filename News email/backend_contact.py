@@ -5,10 +5,9 @@ import os
 
 def send_email(subject, message):
     sender_email = "Rigaudluly21@gmail.com"
-    receiver_email = sender_email  # Replace with recipient email address
-    password = os.getenv("Password")  # Use environment variable to store password
+    receiver_email = sender_email 
+    password = os.getenv("Password") 
 
-    # Create a multipart message and set headers
     msg = MIMEMultipart()
     msg["From"] = sender_email
     msg["To"] = receiver_email

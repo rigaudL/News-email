@@ -1,0 +1,1 @@
+This script retrieves the top business headlines from NewsAPI and sends them via email. It uses the requests library to fetch data from the NewsAPI and smtplib to send the email. The email sending functionality is encapsulated in the send_email function.
